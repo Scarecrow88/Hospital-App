@@ -1,0 +1,28 @@
+.iconbox {
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+.iconbox .myicon {
+    box-shadow: 5px 5px lightslategray;
+    border: 2px solid #5BAE23;
+    border-radius: 5px;
+    padding: 2.5rem;
+    text-align: center;
+    background-color: #FFFFFF;
+}
+.iconbox .myicon .medicicon {
+    width: 60px;
+    height: 60px;
+    fill: #2C7FB8;
+}
+.iconbox .myicon h3 {
+    font-size: 4.5rem;
+    text-shadow: 4px 4px lightslategray;
+    padding: 0.5rem 0;
+}
+.iconbox .myicon p {
+    font-size: 1.7rem;
+}

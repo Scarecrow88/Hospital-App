@@ -1,0 +1,36 @@
+.servtitle {
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 4px 4px lightslategray;
+    padding-bottom: 2rem;
+    font-size: 5rem;
+    letter-spacing: 0.4rem;
+}
+.servicesbox .servicecont {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    gap: 2rem;
+}
+.servicesbox .servicecont .myservice {
+    box-shadow: 5px 5px lightslategray;
+    border: 2px solid #5BAE23;
+    border-radius: 5px;
+    padding: 2.5rem;
+    background-color: #FFFFFF;
+}
+.servicesbox .servicecont .servicon {
+    width: 60px;
+    height: 60px;
+    fill: #5BAE23;
+}
+@media screen and (max-width: 966px) {
+    .servtitle {
+        font-size: 3.5rem;
+    }
+    .servicesbox .servicecont .myservice {
+        padding: 2rem;
+    }
+    .servicesbox .servicecont {
+        grid-template-columns: repeat(auto-fit, minmax(17rem, 1fr));
+    }
+}

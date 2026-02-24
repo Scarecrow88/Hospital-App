@@ -1,0 +1,77 @@
+.reviewbox .reviewrow {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(19rem, 1fr));
+    gap: 2rem;
+} 
+.reviewbox .reviewrow .client {
+    border: 2px solid #5BAE23;
+    box-shadow: 5px 5px lightslategray;
+    border-radius: .5rem;
+    background-color: #E5E5E5;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    padding: 2.5rem;
+    z-index: 0;
+}
+.reviewbox h1 {
+    font-size: 3rem;
+}
+.reviewbox .reviewrow .client img {
+    height: 10rem;
+    width: 10rem;
+    border-radius: 50%;
+    object-fit: cover;
+    border: .5rem solid #2C7FB8;
+}
+.reviewbox .reviewrow .client h3 {
+    color: #FFFFFF;
+    font-size: 2.2rem;
+    padding: .5rem 0;
+}
+.reviewbox .reviewrow .client .reviewtext {
+    line-height: 1.8;
+    font-size: 1.6rem;
+    padding-top: 4rem;
+}
+.reviewbox .reviewrow .client::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #5BAE23;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    height: 22rem;
+    width: 120%;
+    z-index: -1;
+
+}
+.star-rating {
+    direction: rtl;
+    font-size: 2rem;
+    unicode-bidi: bidi-override;
+    display: inline-flex;
+    position: relative;
+}
+.star-rating input[type="range"] {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    margin: 0;
+    z-index: 2;
+    cursor: pointer;
+}
+.stars {
+    display: flex;
+    pointer-events: none;
+}
+.star {
+    color: #FFFFFF;
+    transition: color 0.2s;
+}
+.star-filled {
+    color: #2C7FB8;
+}

@@ -1,0 +1,26 @@
+.booktitle {
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 4px 4px lightslategray;
+    padding-bottom: 2rem;
+    font-size: 5rem;
+    letter-spacing: 0.4rem;
+}
+.bookbox .bookrow {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 2rem;
+}
+.bookbox .bookrow .imgbox {
+    flex: 1 1 45rem;
+}
+.bookbox .bookrow .imgbox img {
+    width: 100%;
+}
+@media screen and (max-width: 768px) {
+    .bookbox .bookrow {
+        display: block;
+    }
+    
+}

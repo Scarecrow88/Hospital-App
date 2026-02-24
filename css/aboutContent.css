@@ -1,0 +1,30 @@
+.aboutbox .aboutrow {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+.aboutbox .aboutrow .imgbox {
+    flex: 1 1 45rem;
+}
+.aboutbox .aboutrow .imgbox img {
+    width: 100%;
+}
+.aboutbox .aboutrow .content {
+    flex: 1 1 45rem;
+}
+.aboutbox .aboutrow .content h3 {
+    font-size: 4rem;
+    line-height: 1.4;
+}
+@media screen and (max-width: 1093px) {
+    .aboutbox .aboutrow {
+        display: block;
+        align-items: center;
+    }
+}
+@media screen and (max-width: 966px) {
+    .content h3 {
+        font-size: 3.5rem;
+        line-height: 1.3;
+    }
+}
