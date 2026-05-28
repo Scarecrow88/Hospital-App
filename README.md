@@ -2,7 +2,7 @@
 ## Funcionalidades
 - Vista de esquema de una pagina de hospital
 ## Tecnologías utilizadas
-- **Frontend:** JavaScript, HTML, CSS
+- **Frontend:** React.js, JavaScript, HTML, CSS
 ## Arquitecturas
 - Monolitica
 > Vista 1 de la pagina <br>
