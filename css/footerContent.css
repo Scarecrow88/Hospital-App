@@ -5,10 +5,10 @@
 }
 footer {
     width: 100%;
-    background-color: #FFFFFF;
-    color: black;
+    background-color: var(--fourth-color);
+    color: var(--text-color);
     font-family: 'Poppins Light';
-    box-shadow: 0 -3px 18px black;
+    box-shadow: 0 -3px 18px var(--color-text-shadow);
 }
 .fullfooterbox {
     width: 100%;
@@ -25,18 +25,18 @@ footer {
 }
 .footercol1 h1 {
     font-size: 24px;
-    color: #5BAE23;
+    color: var(--second-color);
 }
 .footercol1 p {
     margin-top: 15px;
-    color: black;
+    color: var(--text-color);
 }
 .footercol2 {
     max-width: 400px;
 }
 .footercol2 h1 {
     font-size: 24px;
-    color: #5BAE23;
+    color: var(--second-color);
 }
 .footerrow {
     margin-top: 15px;
@@ -50,7 +50,7 @@ footer {
 }
 .footercol3 h1 {
     font-size: 24px;
-    color: #5BAE23;
+    color: var(--second-color);
 }
 .footercol3 div {
     margin-top: 15px;
@@ -62,18 +62,18 @@ footer {
 }
 .containerfooter {
     width: 100%;
-    background-color: #2C7FB8;
+    background-color: var(--first-color);
     display: flex;
     justify-content: space-between;
     padding: 20px;
 }
 .copyright a {
-    color: #E5E5E5;
+    color: var(--fifth-color);
     text-decoration: none;
     font-weight: bold;
 }
 .information a {
-    color: #E5E5E5;
+    color: var(--fifth-color);
     text-decoration: none;
 }
 @media screen and (max-width: 1070px) {

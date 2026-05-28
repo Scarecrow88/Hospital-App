@@ -1,8 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 section {
     padding: 7rem 9%;
 }
 section:nth-child(even) {
-    background-color: #E5E5E5;
+    background-color: var(--fifth-color);
 }
 .homebox {
     display: flex;
@@ -17,24 +22,24 @@ section:nth-child(even) {
 .content h3 {
     font-size: 4.5rem;
     line-height: 1.8;
-    text-shadow: 4px 4px lightslategray;
+    text-shadow: 4px 4px var(--color-text-shadow);
 }
 .secbutt {
     font-size: 20px;
     text-decoration: none;
     display: inline-flex;
     padding:  0.5rem 1rem;
-    background-color: #2C7FB8;
-    color: #FFFFFF;
+    background-color: var(--first-color);
+    color: var(--fourth-color);
     margin-top: 1rem;
-    box-shadow: 5px 5px lightslategray;
-    border: 2px solid #5BAE23;
+    box-shadow: 5px 5px var(--color-text-shadow);
+    border: 2px solid var(--second-color);
     border-radius: 5px;
     line-height: 1.8;
     align-items: center;
 }
 .secbutt:hover {
-    background-color: #5BAE23;
+    background-color: var(--second-color);
     font-weight: bolder;
     transition: 0.3s;
 }
@@ -42,7 +47,7 @@ section:nth-child(even) {
     margin-right: 10px;
 }
 .appsvg {
-    fill: #E5E5E5;
+    fill: var(--fifth-color);
 }
 @media screen and (max-width: 1093px) {
     .homebox {

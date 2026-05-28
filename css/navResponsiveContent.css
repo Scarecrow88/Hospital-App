@@ -3,28 +3,31 @@
     padding: 0;
     box-sizing: border-box;
 }
+html {
+    scroll-behavior: smooth;
+}
 @font-face {
     font-family: 'Poppins Light';
     src: url('../font/Poppins-Light.ttf');
 }
 body {
     font-family: 'Poppins Light';
-    background-color: #FFFFFF;
+    background-color: var(--fourth-color);
 }
 .bodybox::-webkit-scrollbar {
     width: 10px;
 }
 .bodybox::-webkit-scrollbar-track {
-    background-color: #ff4d6d;;
+    background-color: var(--scrollbar-track);
     border-radius: 5px;
 }
 .bodybox::-webkit-scrollbar-thumb {
-    background-color: #590d22;
+    background-color: var(--scrollbar-thumb);
     border-radius: 5px;
 }
 .navheader {
     height: 80px;
-    background-color: #FFFFFF;
+    background-color: var(--fourth-color);
     box-shadow: 0 3px 18px black;
     position: fixed;
     width: 100%;
@@ -38,15 +41,15 @@ body {
     justify-content: space-between;
 }
 .navlogo {
-    color: #2C7FB8;
+    color: var(--first-color);
     text-decoration: none;
     font-weight: bolder;
 }
 .navlogo2 {
-    color: #5BAE23;
+    color: var(--second-color);
 }
 .navmenuitem a {
-    color: #5BAE23;
+    color: var(--second-color);
     text-decoration: none;
 }
 .navmenu {
@@ -65,7 +68,7 @@ body {
     border-radius: 10px;
 }
 .navmenuitem a:hover {
-    color: #A7D8F0;
+    color: var(--third-color);
     font-weight: bolder;
     transition: 0.5s;
 }
@@ -124,7 +127,7 @@ body {
         align-items: center;
         margin-right: 20px;
         flex-direction: column;
-        background-color: #A7D8F0;
+        background-color: var(--third-color);
         position: fixed;
         left: 0;
         top: 60px;
@@ -138,10 +141,10 @@ body {
         line-height: 60px;
     }
     .navmenuitem a {
-        color: #2C7FB8;
+        color: var(--first-color);
     }
     .navmenuitem a:hover {
-        color: #2C7FB8;
+        color: var(--first-color);
         background: none;
         font-weight: bolder;
     }

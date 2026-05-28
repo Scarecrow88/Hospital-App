@@ -1,7 +1,12 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 .booktitle {
     text-align: center;
     text-transform: uppercase;
-    text-shadow: 4px 4px lightslategray;
+    text-shadow: 4px 4px var(--color-text-shadow);
     padding-bottom: 2rem;
     font-size: 5rem;
     letter-spacing: 0.4rem;
@@ -22,5 +27,7 @@
     .bookbox .bookrow {
         display: block;
     }
-    
+    .booktitle {
+        font-size: 2.5rem;
+    }
 }

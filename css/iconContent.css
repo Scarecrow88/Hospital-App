@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 .iconbox {
     display: grid;
     gap: 2rem;
@@ -6,21 +11,21 @@
     padding-bottom: 5rem;
 }
 .iconbox .myicon {
-    box-shadow: 5px 5px lightslategray;
-    border: 2px solid #5BAE23;
+    box-shadow: 5px 5px var(--color-text-shadow);
+    border: 2px solid var(--second-color);
     border-radius: 5px;
     padding: 2.5rem;
     text-align: center;
-    background-color: #FFFFFF;
+    background-color: var(--fourth-color);
 }
 .iconbox .myicon .medicicon {
     width: 60px;
     height: 60px;
-    fill: #2C7FB8;
+    fill: var(--first-color);
 }
 .iconbox .myicon h3 {
     font-size: 4.5rem;
-    text-shadow: 4px 4px lightslategray;
+    text-shadow: 4px 4px var(--color-text-shadow);
     padding: 0.5rem 0;
 }
 .iconbox .myicon p {
